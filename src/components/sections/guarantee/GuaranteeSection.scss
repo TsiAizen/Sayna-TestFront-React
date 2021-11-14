@@ -1,0 +1,41 @@
+@import '../../style.scss';
+
+.section-guarantee {
+  margin: 0.5rem auto;
+
+  .section-guarantee__block {
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    width: 50rem;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      margin-left: -4.2rem;
+    }    
+
+    .section-guarantee__block-text {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      align-items: flex-start;
+      
+      .section-guarantee__block-text__title {
+        @include title;
+      }
+
+      .section-guarantee__block-text__description {
+        @include sub-text;
+        margin-top: 0.5rem;
+      }
+    }
+
+    .section-guarantee__block-text__button {
+      align-self: center;
+      height: 3rem;
+    }
+  }
+}

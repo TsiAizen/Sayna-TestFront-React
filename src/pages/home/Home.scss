@@ -1,0 +1,45 @@
+.page-home {
+
+  .page-home__cover {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/sayna-test-99ab6.appspot.com/o/banner-1.png?alt=media&token=321515e4-1375-4648-b5e4-533e37240310');
+    background-repeat: no-repeat;
+    background-size: 45rem;
+    background-position-x: 115%;
+    background-position-y: -10.5rem;
+  }
+
+  .page-home__details {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/sayna-test-99ab6.appspot.com/o/health-family-1.png?alt=media&token=09543336-2dc2-4726-8e16-dc0f33be5961');
+    background-repeat: no-repeat;
+    background-size: 45rem;
+  }
+
+  .page-choice {
+    background-color: #eff2f5;
+  }
+
+  .page-claim {
+    background-color: white;
+  }
+
+  .page-quote {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/sayna-test-99ab6.appspot.com/o/composed-layer-2.png?alt=media&token=1f962844-ef7f-4366-b3ca-a96fcef6ae0c');
+    background-repeat: no-repeat;
+    background-size: 75rem;
+    background-position-x: 35vh;
+  }
+  .page-price {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/sayna-test-99ab6.appspot.com/o/composed-layer-3.png?alt=media&token=ce6d97ca-1f18-4b65-b3d3-f7f0c179d1a4'), url('https://firebasestorage.googleapis.com/v0/b/sayna-test-99ab6.appspot.com/o/family-illustration-1.png?alt=media&token=b0b01fc5-3b2d-4b30-ae30-98e27907d294');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, 116% 110%;
+    background-size: auto, 35rem;
+    padding-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .page-footer {
+    background: #eff2f5;
+  }
+}

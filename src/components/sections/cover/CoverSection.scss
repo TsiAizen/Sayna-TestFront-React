@@ -1,0 +1,45 @@
+@import '../../style.scss';
+
+.section-cover {
+  display: flex;
+  flex-direction: column;
+  min-height: 92vh;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+
+  .section-cover__greeting {
+    display: flex;
+    flex-direction: column;
+
+    .section-cover__greeting-subtitle {
+      font-weight: bold;
+      color: $color-subtext;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      font-size: 10px;
+    }
+
+    .section-cover__greeting-title {
+      font-weight: bold;
+      font-size: 2rem;
+      margin: 0 0 1rem 0;
+    }
+  }
+
+  .section-cover__title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    .section-cover__title__main {
+      @include title;
+      margin-bottom: 1rem;
+    }
+
+    .section-cover__title__sub {
+      color: $color-subtext;
+      font-weight: bold;
+      font-size: 11px;
+    }
+  }
+}
