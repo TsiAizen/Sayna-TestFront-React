@@ -5,13 +5,11 @@ import './GuaranteeSeconSection.scss';
 import Container from '../../container/Container';
 import BaseButton from '../../buttons/base/BaseButton';
 
-import shield from '../../../assets/img/shield-1.png';
-
 const GuaranteeSeconSection = () => (
   <Container>
     <div className="section-guarantee-second">
       <div className="section-guarantee-second__block">
-        <img src={shield} alt="shield" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/sayna-test-99ab6.appspot.com/o/shield-1.png?alt=media&token=b39858d9-feb6-46c3-a176-b819efac5b9b" alt="shield" />
         <div className="section-guarantee-second__block-text">
           <span className="section-guarantee-second__block-text__title">
             Insurance made easy
